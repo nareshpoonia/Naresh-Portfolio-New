@@ -18,7 +18,7 @@ This is my new Portfolio Website
 Both solution link and the Live Site URL to be updated soon
 
 - Solution URL: [Solution URL](https://github.com/nareshpoonia/Naresh-Portfolio-New)
-- Live Site URL: [Live site URL](nareshpoonia.netlify.app)
+- Live Site URL: [Live site URL](https://nareshpoonia.netlify.app/)
 
 ### Built with
 
