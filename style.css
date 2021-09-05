@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+/* Creating a variable  */
+:root {
+  --primary-color: #be185d;
+  --grey: #9ca3af;
+  --light-grey: #f9fafb;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+}
+
+hr {
+  margin: 2rem 2rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+/* For making list item inline */
+.list-inline {
+  list-style: none;
+  display: inline;
+  padding: 0rem 2rem;
+}
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  border-bottom-left-radius: 1rem;
+  /* padding: 0.1rem 0.1rem; */
+}
+/* Link class inside nav class */
+.nav .link {
+  text-decoration: none;
+  color: white;
+}
+.nav-brand {
+  padding: 0.5rem 0.1rem;
+}
+
+.link-list {
+  padding-bottom: 0.5rem;
+  text-align: right;
+}
+
+.hero-image {
+  max-width: 350px;
+  margin: auto;
+}
+
+.header-heading {
+  color: var(--grey);
+}
+
+.header-heading-main {
+  color: var(--primary-color);
+}
+
+.section h3 {
+  text-align: center;
+}
+.light-grey {
+  background-color: var(--light-grey);
+}
+
+.section {
+  padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
