@@ -115,6 +115,7 @@ ul .list-non-bullet {
   color: white;
   padding: 1rem 1rem;
   border-top-right-radius: 1rem;
+  margin-top: 2rem;
 }
 
 .footer .link {
@@ -147,4 +148,20 @@ ul .list-non-bullet {
 .yellow-background {
   background-color: var(--yellow);
   /* padding-bottom: 3rem; */
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
+}
+
+.hero-blog {
+  padding: 1rem 1rem;
+  width: 97%;
+}
+
+.blog-heading {
+  padding: 0rem 1rem;
 }
