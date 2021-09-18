@@ -91,6 +91,7 @@ ul .list-non-bullet {
 
 .header-heading {
   color: var(--grey);
+  margin-bottom: -1.5rem;
 }
 
 .header-heading-main {
@@ -137,6 +138,7 @@ ul .list-non-bullet {
   margin: 0px 0px;
   font-weight: bolder;
   font-size: large;
+  margin-top: 1.3rem;
 }
 
 .smaller {
