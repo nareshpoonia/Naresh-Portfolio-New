@@ -1,245 +1,122 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0px;
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* Creating a variable  */
-:root {
-  --primary-color: #be185d;
-  --grey: #9ca3af;
-  --light-grey: #f9fafb;
-  --yellow: #fffbeb;
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
 .container {
-  padding: 0rem 1rem;
-  margin: auto;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-.container-center {
-  max-width: 90%;
-  margin: auto;
-}
-
-.link {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.link-primary, .link-secondary {
-  padding: 0.8rem 1.5rem;
-  margin: 1rem 0;
-}
-
-hr {
-  margin: 2rem 2rem;
-}
-
-ul .list-non-bullet {
-  text-align: left;
-}
-
-.list-non-bullet {
-  list-style: none;
-}
-/* For making list item inline */
-.list-inline {
-  list-style: none;
-  display: inline;
-  padding: 0rem 2rem;
-}
-
-.nav {
-  background-color: var(--primary-color);
-  color: white;
-  border-bottom-left-radius: 1rem;
-
-  /* padding: 0.1rem 0.1rem; */
-}
-/* Link class inside nav class */
-.nav .link {
-  text-decoration: none;
-  color: white;
-}
-.nav-brand {
-  padding: 0.5rem 0.1rem;
-}
-
-.link-list {
-  padding-bottom: 0.5rem;
-  text-align: left;
-  padding-left: 0px;
-}
-
-.header {
-  text-align: center;
-}
-.hero-image {
-  max-width: 350px;
-  margin: auto;
-  width: 80%;
-}
-
-.header-heading {
-  color: var(--grey);
-  margin-bottom: -1.5rem;
-}
-
-.header-heading-main {
-  color: var(--primary-color);
-}
-
-.section h3 {
-  text-align: center;
-}
-.light-grey {
-  background-color: var(--light-grey);
-  text-align: center;
-}
-
-.section {
-  padding: 1rem;
-}
-
-.footer {
-  text-align: center;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem 1rem;
-  border-top-right-radius: 1rem;
-  margin-top: 2rem;
-}
-
-.footer .link {
-  color: white;
-}
-
-.section-description {
-  color: var(--primary-color);
-}
-.link-active {
-  font-weight: bolder;
-}
-
-.link-projects {
-  margin: 2rem;
-}
-
-.heading-projects {
-  margin: 0px 0px;
-  font-weight: bolder;
-  font-size: large;
-  margin-top: 1.3rem;
-}
-
-.smaller {
-  font-size: smaller;
-}
-.grey-text {
-  color: var(--grey);
-}
-.yellow-background {
-  background-color: var(--yellow);
-  /* padding-bottom: 3rem; */
-}
-
-.img {
-  width: 100%;
-  height: auto;
-  display: block;
-  align-items: center;
-}
-
-.hero-blog {
-  padding: 1rem 1rem;
-  width: 97%;
-}
-
-.blog-heading {
-  padding: 0rem 1rem;
-}
-
-/* For Tablets (portrait mode) */
-@media screen and (max-width: 768px) {
-  .nav ul {
-    display: block;
+header {
+    background: #333;
+    color: #fff;
     text-align: center;
-  }
-
-  .list-inline {
-    display: block;
-    padding: 0.5rem 0;
-  }
-
-  .container-center {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  .hero-image {
-    max-width: 250px;
-  }
-
-  .link-primary, .link-secondary {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
+    padding: 40px 0;
 }
 
-/* For Mobile Devices */
-@media screen and (max-width: 480px) {
-  .nav ul {
-    display: block;
-    text-align: center;
-  }
-
-  .list-inline {
-    display: block;
-    padding: 0.5rem 0;
-  }
-
-  .hero-image {
-    max-width: 200px;
-  }
-
-  .link-primary, .link-secondary {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-    margin: 0.5rem 0;
-  }
-
-  h3, p {
-    font-size: 1rem;
-  }
-
-  .container-center {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  .nav-brand {
-    font-size: 1.5rem;
-  }
-
-  .header-heading-main {
-    font-size: 1.2rem;
-  }
-
-  .section {
-    padding: 0.5rem;
-  }
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
 }
-@media screen and (max-width: 480px) {
-  .nav ul {
-    display: block;
-    text-align: center;
-  }
 
-  .list-inline {
-    display: block;
-    padding: 1rem 0;
-  }
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#skills .software-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills .software {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills .software h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.youtube-videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.youtube-videos iframe {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    #skills .software, .youtube-videos iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
 }
